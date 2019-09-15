@@ -5,7 +5,7 @@
     # Code stuff
     docker
     gnumake
-    rust
+    rustup
     clang
     adoptopenjdk-openj9-bin-11
     python3
