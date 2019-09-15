@@ -9,5 +9,6 @@
     ./users.nix
     ./xorg.nix
     ./packages-basics.nix
+    ./packages-userland.nix
   ];
 }
