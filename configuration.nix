@@ -5,7 +5,7 @@
 
   imports = [
     ./hardware-configuration.nix
-    ./boot.nix
+    ./box.nix
     ./users.nix
     ./xorg.nix
     ./packages-basics.nix
