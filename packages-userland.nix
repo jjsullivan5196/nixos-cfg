@@ -23,10 +23,6 @@
     # The Office
     libreoffice-fresh
 
-    # The Innernet
-    qutebrowser
-    firefox
-
     # Pesky IRC
     discord
 

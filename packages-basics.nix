@@ -7,5 +7,7 @@
     neovim
     emacs
     alacritty
+    firefox
+    qutebrowser
   ];
 }
