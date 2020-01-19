@@ -1,2 +1,2 @@
 box.nix
-hardware-configuration.nix
+hardware.nix

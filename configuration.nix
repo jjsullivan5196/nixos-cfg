@@ -4,11 +4,11 @@
   nixpkgs.config.allowUnfree = true;
 
   imports = [
-    ./hardware-configuration.nix
+    ./hardware.nix
     ./box.nix
     ./users.nix
     ./xorg.nix
-    ./packages-basics.nix
-    ./packages-userland.nix
+    ./pkg-basics.nix
+    ./pkg-user.nix
   ];
 }
