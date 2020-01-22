@@ -4,7 +4,7 @@
   nixpkgs.config.allowUnfree = true;
 
   imports = [
-    ./hardware.nix
+    ./hardware-configuration.nix
     ./box.nix
     ./users.nix
     ./xorg.nix
