@@ -31,6 +31,12 @@
       };
     };
   };
+
+  qt5 = {
+    enable = true;
+    style = "adwaita";
+    platformTheme = "gnome";
+  };
   
   services.xserver = {
     enable = true;

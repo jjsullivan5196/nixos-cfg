@@ -8,6 +8,5 @@
     emacs
     alacritty
     firefox
-    qutebrowser
   ];
 }
