@@ -6,7 +6,8 @@
     hsetroot
     sxhkd
     dmenu
-    polybar
+    gnome3.adwaita-icon-theme
+    (polybar.override { pulseSupport = true; })
   ];
 
   fonts = { 

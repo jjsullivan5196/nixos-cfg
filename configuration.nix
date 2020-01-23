@@ -6,9 +6,8 @@
   imports = [
     ./hardware-configuration.nix
     ./box.nix
+    ./system.nix
     ./users.nix
     ./xorg.nix
-    ./pkg-basics.nix
-    ./pkg-user.nix
   ];
 }

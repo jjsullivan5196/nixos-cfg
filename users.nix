@@ -16,4 +16,23 @@
   programs.zsh.promptInit = "";
 
   security.sudo.wheelNeedsPassword = false;
+
+  environment.systemPackages = with pkgs; [
+    # Multimedia
+    vlc
+    sxiv
+    gimp
+    inkscape
+    blender
+
+    # The Office
+    libreoffice-fresh
+
+    # Pesky IRC
+    discord
+
+    # Vidya
+    #steam
+    #steam-run-native
+  ];
 }
