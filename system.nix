@@ -14,6 +14,7 @@
     firefox
   ];
 
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.supportedFilesystems = [ "ntfs" ];
 
   # Audio
