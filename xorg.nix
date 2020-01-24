@@ -6,6 +6,7 @@
     hsetroot
     sxhkd
     dmenu
+    scrot
     gnome3.adwaita-icon-theme
     (polybar.override { pulseSupport = true; })
   ];
@@ -26,9 +27,9 @@
     fontconfig = {
       penultimate.enable = false;
       defaultFonts = {
-        monospace = [ "Hack" "Noto Sans Mono"  ];
-        sansSerif = [ "Noto Sans" ];
-        serif = [ "Noto Serif" ];
+        monospace = [ "Hack" "Noto Sans Mono" "DejaVu Sans Mono"  ];
+        sansSerif = [ "Noto Sans" "DejaVu Sans" ];
+        serif = [ "Noto Serif" "DejaVu Serif" ];
       };
     };
   };

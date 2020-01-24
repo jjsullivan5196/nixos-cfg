@@ -14,6 +14,8 @@
     firefox
   ];
 
+  boot.supportedFilesystems = [ "ntfs" ];
+
   # Audio
   hardware.pulseaudio = {
     enable = true;
