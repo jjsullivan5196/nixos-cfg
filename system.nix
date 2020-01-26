@@ -5,6 +5,7 @@
   programs.gnupg.agent.enable = true;
 
   environment.systemPackages = with pkgs; [
+    unixtools.fdisk
     usbutils
     pciutils
     pinentry-qt
