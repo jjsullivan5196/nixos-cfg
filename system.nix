@@ -10,6 +10,7 @@
     git
     neovim
     emacs
+    direnv
     alacritty
     firefox
   ];
