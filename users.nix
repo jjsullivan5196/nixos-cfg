@@ -24,6 +24,8 @@
     gimp
     inkscape
     blender
+    ffmpeg
+    imagemagick
 
     # The Office
     libreoffice-fresh
