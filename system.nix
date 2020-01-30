@@ -21,6 +21,12 @@
   boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.supportedFilesystems = [ "ntfs" ];
 
+  # Screenlock
+  services.physlock = {
+    enable = true;
+    allowAnyUser = true;
+  };
+  
   # Audio
   hardware.pulseaudio = {
     enable = true;
