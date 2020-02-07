@@ -31,7 +31,7 @@
     # The Office
     libreoffice-fresh
     pandoc
-    texlive-combined-context
+    texlive.combined.scheme-context
     xournalpp
 
     # Util
