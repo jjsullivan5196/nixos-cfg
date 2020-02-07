@@ -8,6 +8,8 @@
     unixtools.fdisk
     usbutils
     pciutils
+    efibootmgr
+    htop
     pinentry-qt
     pass
     git
@@ -16,6 +18,8 @@
     direnv
     alacritty
     firefox
+    brave
+    chromium
   ];
 
   boot.kernelPackages = pkgs.linuxPackages_latest;

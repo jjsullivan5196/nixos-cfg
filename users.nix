@@ -26,9 +26,17 @@
     blender
     ffmpeg
     imagemagick
+    hugo
 
     # The Office
     libreoffice-fresh
+    pandoc
+    texlive-combined-context
+    xournalpp
+
+    # Util
+    rclone
+    p7zip
 
     # Pesky IRC
     discord
