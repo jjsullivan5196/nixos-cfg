@@ -2,7 +2,10 @@
 
 {
   # Basics
-  programs.gnupg.agent.enable = true;
+  programs.gnupg.agent = {
+    enable = true;
+    pinentryFlavor = "qt";
+  };
 
   environment.systemPackages = with pkgs; [
     unixtools.fdisk
@@ -10,7 +13,6 @@
     pciutils
     efibootmgr
     htop
-    pinentry-qt
     pass
     git
     neovim
