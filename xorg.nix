@@ -8,6 +8,7 @@
     sxhkd
     dmenu
     scrot
+    xclip
     gnome3.adwaita-icon-theme
     (polybar.override { pulseSupport = true; })
   ];
