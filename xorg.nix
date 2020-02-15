@@ -44,6 +44,7 @@
   
   services.xserver = {
     enable = true;
+    xkbOptions = "caps:super";
     displayManager.startx.enable = true;
     windowManager.bspwm.enable = true;
   };
