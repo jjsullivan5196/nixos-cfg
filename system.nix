@@ -9,6 +9,7 @@
 
   environment.systemPackages = with pkgs; [
     unixtools.fdisk
+    exfat
     usbutils
     pciutils
     efibootmgr
@@ -26,12 +27,14 @@
 
   boot.supportedFilesystems = [ "ntfs" ];
 
+  programs.adb.enable = true;
+
   # Screenlock
   services.physlock = {
     enable = true;
     allowAnyUser = true;
   };
-  
+
   # Audio
   hardware.pulseaudio = {
     enable = true;

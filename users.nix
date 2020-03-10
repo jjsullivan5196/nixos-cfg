@@ -3,7 +3,7 @@
 {
   users.users.john = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    extraGroups = [ "wheel" "adbusers" ];
     shell = pkgs.zsh;
   };
 
