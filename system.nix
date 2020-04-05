@@ -19,6 +19,7 @@
     neovim
     emacs
     direnv
+    dos2unix
     alacritty
     firefox
     brave
@@ -40,6 +41,12 @@
     enable = true;
     support32Bit = true;
   };
+
+  # OpenGL ThirtyTwo
+  hardware.opengl.driSupport32Bit = true;
+
+  # Steam controllers?
+  hardware.steam-hardware.enable = true;
 
   # Automount
   services.devmon.enable = true;

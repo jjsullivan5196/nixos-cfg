@@ -13,7 +13,7 @@
     (polybar.override { pulseSupport = true; })
   ];
 
-  fonts = { 
+  fonts = {
     fonts = with pkgs; [
       hack-font
       noto-fonts
@@ -41,10 +41,11 @@
     style = "adwaita";
     platformTheme = "gnome";
   };
-  
+
   services.xserver = {
     enable = true;
     xkbOptions = "caps:super";
+    libinput.enable = true;
     displayManager.startx.enable = true;
     windowManager.bspwm.enable = true;
   };

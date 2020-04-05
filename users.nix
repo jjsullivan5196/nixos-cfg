@@ -40,9 +40,10 @@
 
     # Pesky IRC
     discord
+    zoom-us
 
     # Vidya
-    #steam
+    steam
     #steam-run-native
   ];
 }
