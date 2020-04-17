@@ -33,6 +33,9 @@
     pandoc
     texlive.combined.scheme-context
     xournalpp
+    (pidgin-with-plugins.override {
+      plugins = [ pidgin-sipe ];
+    })
 
     # Util
     rclone

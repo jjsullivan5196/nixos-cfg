@@ -1,5 +1,10 @@
 { config, lib, pkgs, ... }:
 
+let
+  custom-emacs = pkgs.emacsWithPackages (with pkgs.emacsPackagesNg; [
+    emacs-libvterm
+  ]);
+in
 {
   # Basics
   programs.gnupg.agent = {
@@ -17,7 +22,7 @@
     pass
     git
     neovim
-    emacs
+    custom-emacs
     direnv
     dos2unix
     alacritty
