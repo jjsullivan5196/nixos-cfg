@@ -17,6 +17,8 @@
 
   security.sudo.wheelNeedsPassword = false;
 
+  nixpkgs.config.permittedInsecurePackages = [ "p7zip-16.02" ];
+
   environment.systemPackages = with pkgs; [
     # Multimedia
     vlc
@@ -47,6 +49,5 @@
 
     # Vidya
     steam
-    #steam-run-native
   ];
 }

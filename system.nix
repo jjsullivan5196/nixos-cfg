@@ -31,7 +31,7 @@ in
     chromium
   ];
 
-  boot.supportedFilesystems = [ "ntfs" ];
+  boot.supportedFilesystems = [ "ntfs" "btrfs" ];
 
   programs.adb.enable = true;
 
@@ -45,6 +45,7 @@ in
   hardware.pulseaudio = {
     enable = true;
     support32Bit = true;
+    package = pkgs.pulseaudioFull;
   };
 
   # OpenGL ThirtyTwo
@@ -75,6 +76,8 @@ in
       addresses = true;
     };
   };
+
+  networking.firewall.allowedTCPPorts = [ 80 8080 8081 1313 ];
 
   services.openssh = {
     enable = true;
